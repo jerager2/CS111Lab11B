@@ -75,12 +75,14 @@ public void setDay(String m, int d, int y, String cal) {
 
 	// return a new Date with the same fields as this one
 	public DateObject generateCopy() {
-		return null;
+	    DateObject new1 = new DateObject();
+	    return new1;
 	}
 	
 	// return a new Date with the same fields as this one's tomorrow
 	public DateObject generateTomorrow() {
-		return null;
+	    DateObject new1 = new DateObject();
+	    return new1;
 	}
 	
 	//return the year
